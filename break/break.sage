@@ -56,4 +56,4 @@ e_ver = h_vec - A_mat * x_vec
 assert(e_vec == e_ver)
 e_ZZ = vector(ZZ, e_ver)
 assert(nrbounded(e_ZZ) >= l)
-print("Soltion verified, e=", vector(ZZ, f_conv(e_ZZ)))
+print("Solution verified, e=", vector(ZZ, f_conv(e_ZZ)))
